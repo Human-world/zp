@@ -1,0 +1,37 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1587604876575'); /* IE9 */
+  src: url('iconfont.eot?t=1587604876575#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPUAAsAAAAACPgAAAOHAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDKgqFHIN6ATYCJAMUCwwABCAFhG0HSxuBB1GUDkaH7IckSWBJAWUYViEIBEhBJBQoEAEAAAHx8N/a632zMxsElyhAxaijoiKpKExVLZDwNaauloWJTrckc6r//81t4iX91ydAJJkm7ZN/N7+Jvk7LpESIEBpDetaXucIzfZe8pKDW9IKnuQfHUj8iLe/b3ikqqXNB0ThMgeEsKmlkGzbgQHzD2E3EYVxPoNM4E3+cfLlzmgzsFognldTltFhQLmGGdk+dc2wW7xXt6UX6jnfu+8c/i6FLUipg37PrbcAtGg1f43lrwAVFMPUXh3QSFRZwMvEoN3lJ9CsLRJ1Gq2Qdpx3GE31VjJsPKhWPMTKvxVCa7KTtP16SiRpwdrPY/WqmoWAtFY2RlqAx1pJo+OabMrqATqSuj/hNAZQJrgQJYw52c/b+zYvkAShhQ9BkIssVSyAZ8IOYFSaW061xawQvK88m/DJtw1fim93ynokJxeKKejaGyvzJvaxxulxshVlB6YAvWLFcEcloNoQNSpRnZeF+mb7pJ/XjWt4yVgQiUUUDW8EHbbKz2qwbYkxLsDJVltqgHRuwzMjESIlgEDurwcLTpdy5gjq7kIZimDVteHryBZANLvBsIX8ebflajdbv6Rhf6EFkWu6FTHLZIVcZu7Mz1gI8wO/z/3NbpbtJTv4YSZ9IoNx2wLpqyUICQusn2X5GVarVuhcxJzjM2BvW3/Mf1SW15UfMvue+Cnz40x3k9cPD6V7739X538fIKGv1KGGHVbfsAC22xk+NEhd1p0EVq/45HZMe/oPfcVe9FVBssv3fbLtBBreXxq/ZTIudtTO+TFNt01s31ZyVTQsIlayPxUY9Xaz3UErohBHedoNBv37cI7Wd3rx7JISkzRhU2k0gM3YBii7LUGu3B53m7U/uMqQiityBOS8GQr83JL0+QaXfB5mxXyhG/aHWHxrQ6TwsztllKir1E5rQbTCAsk6oLGc5QZHG8PqvSNvUraIWV/TEqo7yEBYcmqzvMceqjwOa2+ispYUA0sQySGZuhmnKoKGJxeg3dkVLU8xDQpC8V7LL6zPOcKSCXA0UAJ4RiPiYHKGLN4zU218hqpVyVSXjGrpPqFKL1g6mbJMayL0zrzXuXF5S61AzjQYBiAqTATsmjlJYYUCRv1UM+Rq2sEWpMOdw85G6Tnt8d3YBDdIkwIElUlSRo0StftbKkFDprG+75bRKGjZqOjGlcAA=') format('woff2'),
+  url('iconfont.woff?t=1587604876575') format('woff'),
+  url('iconfont.ttf?t=1587604876575') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1587604876575#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 2vw;
+  text-align: center;
+  line-height: 3vw;
+  color: #fff;
+  cursor:pointer;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-zuozuo:before {
+  content: "\e60d";
+}
+
+.icon-youyou:before {
+  content: "\e60e";
+}
+
+.icon-Right:before {
+  content: "\e600";
+}
+
+.icon-zuozuo1:before {
+  content: "\e6a3";
+}
+

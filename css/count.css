@@ -1,0 +1,283 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body::-webkit-scrollbar {
+  -ms-overflow-style: none;
+  display: none;
+  width: 0!important;
+}
+
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+ 
+}
+.whole{
+  width: 100vw;
+  height: 100vw;
+  display: -webkit-box;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.heads{
+  width: 100vw;
+  height: 8vw;
+  background-color: #fff;
+  display: -webkit-box;
+  display: flex;
+  flex-direction: row;
+}
+.heads ul{
+  margin-left: 40vw;
+}
+.heads ul li{
+  float: left;
+  font-size: 1.7vw;
+  padding-left: 2vw;
+  line-height: 8.5vw;
+}
+.heads ul li a{
+  display: block;
+  color: #c6c6c6;
+  width: 7vw;
+  text-align: center;
+  height: 8vw;
+}
+.heads ul li a:hover{
+  color: #baa100;
+  transition: all 0.3s;
+  background: url(../image/und.png) no-repeat 0vw 0vw;
+  background-size: 100% 100%;
+}
+.heads img{
+  width: 11vw;
+  height: 6vw;
+  margin-left: 15vw;
+  margin-top: 1vw;
+  /* cursor:pointer; */
+}
+
+.bannerst{
+  width: 100vw;
+  height: 44vw;
+}
+
+.content{
+  width: 75vw;
+  height: 59vw;
+  margin-left: 14vw;
+  display: -webkit-box;
+  display: flex;
+  flex-direction: row;
+}
+.content .content-left{
+  width: 20vw;
+  height: 59vw;
+  display: -webkit-box;
+  display: flex;
+  flex-direction: column;
+}
+.content .content-left .about{  /* 制作梯形div */
+  width: 15.7vw;
+  border-top: 18vw solid #baa100;
+  border-right: 4.2vw solid transparent;
+}
+.content .content-left .about img{
+  position: absolute;
+  bottom: 37vw;
+  left: 21vw;
+  cursor:pointer;
+}
+.content .content-left .about p{
+  font-size: 1.5vw;
+  color: #fff;
+  position: absolute;
+  bottom: 35vw;
+  left: 20vw;
+  cursor:pointer;
+}
+.content .content-left .two-head{
+  width: 15.7vw;
+  border-bottom: 41vw solid #dfd98f;
+  border-right: 4.2vw solid transparent;
+}
+.content .content-left .two-head ul{
+  position: absolute;
+  bottom: -5vw;
+  left: 19vw;
+}
+.content .content-left .two-head ul li{
+  line-height: 4vw;
+  color: #fff;
+  font-size: 1.3vw;
+  text-align: center;
+  width: 6.5vw;
+  transition: all 0.3s;
+}
+.content .content-left .two-head ul li:hover{
+  background: url(../image/juxing.png) no-repeat 0vw 1vw;
+  background-size: 6.5vw 2vw;
+}
+.content .content-left .two-head ul li a{
+  display: block;
+  width: 6.5vw;
+  height: 4vw;
+}
+.content .content-left .two-head ul li a:hover{
+  color: rgb(219, 166, 67);
+  transition: all 0.3s;
+}
+.content .content-right{
+  width: 52vw;
+  height: 59vw;
+  margin-left: 2.6vw;
+  display: -webkit-box;
+  display: flex;
+  flex-direction: column;
+}
+.content .content-right .banner-two{
+  width: 52vw;
+  height: 29vw;
+  overflow: hidden;
+}
+.content .content-right .banner-two .box2{
+  width: 260vw;
+  height: 29vw;
+  margin-left: -52vw;
+  transition: all .5s;
+}
+/* .content .content-right .banner-two .box .deviation{
+  margin-top: -29vw;
+} */
+.content .content-right .banner-two .box2 img{
+  width: 52vw;
+  height: 29vw;
+  float: left;
+  display: block;
+}
+.content .content-right .banner-two ul{
+  position: absolute;
+  bottom: 20vw;
+  left: 62vw;
+}
+.content .content-right .banner-two ul li{
+  display: block;
+  float: left;
+  width: 0.7vw;
+  height: 0.7vw;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 0.7vw;
+  cursor:pointer;
+}
+.content .content-right .banner-two ul .active{
+  background-color: #dfd98f;
+}
+.content .content-right .banner-two span{
+  position: absolute;
+  width: 3vw;
+  height: 3vw;
+  /* background-color: rgb(96, 156, 224); */
+  bottom: 32vw;
+  left: 36.6vw;
+}
+.content .content-right .banner-two #right{
+  left: 86vw;
+}
+
+.content .content-right .videos{
+  width: 52vw;
+  height: 30vw;
+  display: -webkit-box;
+  display: flex;
+  flex-direction: row;
+}
+.content .content-right .videos .testing,.testing2{
+  width: 25vw;
+  height: 26vw;
+  margin-top:4vw;
+}
+.content .content-right .videos .testing p,.testing2 p{
+  color:#baa100;
+  font-size: 1vw;
+  margin-left: 8vw;
+}
+.content .content-right .videos .testing video,.testing2 video{
+  margin-top: 3vw;
+  width: 25vw;
+  height: 16.4vw;
+  outline: none;
+  transition: all 0.3s;
+}
+.content .content-right .videos .testing2{
+  margin-left: 2vw;
+}
+.content .content-right .videos .not,.not2{
+  width: 25vw;
+  height: 5vw;
+  display: -webkit-box;
+  display: flex;
+  flex-direction: row;
+}
+.content .content-right .videos .tes{
+  width: 10vw;
+  height: 2vw;
+  background-color: #baa100;
+  line-height: 2vw;
+  font-size: 1vw;
+  text-align: center;
+  color: #fff;
+  transition: all 0.3s;
+  margin-top: 1.5vw;
+  cursor:pointer;
+}
+.content .content-right .videos .testing2 .not2 .targ{
+  left: 79vw;
+  position: absolute;
+}
+.content .content-right .videos .testing .not .gene{
+  left: 51.6vw;
+  position: absolute;
+}
+.paces{
+  width: 100vw;
+  height: 8vw;
+  background-color: #c6c6c6;
+  display: -webkit-box;
+  display: flex;
+  flex-direction: row;
+}
+.paces img{
+  margin-left: 13.9vw;
+}
+.paces .font a{
+  font-size: 1vw;
+  text-align: center;
+  line-height: 3vw;
+  color: #fff;
+}
+.paces .link{
+  width: 7vw;
+  height: 3vw;
+  margin-left: 1.3vw;
+}
+.paces .company{
+  width: 40vw;
+  height: 6vw;
+  margin-left: 10vw;
+  margin-top:2vw;
+}
+.paces .company ul li{
+  float: left;
+  padding-left: 2vw;
+}
+.paces .company ul li a:hover{
+  transition: all 0.2s;
+  color: #baa100;
+}
